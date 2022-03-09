@@ -7,7 +7,7 @@ function update() {
     var mins = d.getMinutes();
     var secs = d.getSeconds();
     var period = ""
-    if (hrs > 12) {
+    if (hrs => 12) {
         period = "pm"
     } else {
         period = "am"
